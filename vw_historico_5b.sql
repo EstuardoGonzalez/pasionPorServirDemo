@@ -107,3 +107,4 @@ SELECT arcwo.workorderid AS "Request ID",
      LEFT JOIN aaausercontactinfo auci ON arcrequester.user_id = auci.user_id
      LEFT JOIN aaacontactinfo aci ON auci.contactinfo_id = aci.contactinfo_id
   WHERE arcwo.statusname <> 'Cancelado'::citext OR arcwo.statusname IS NULL
+  NUEVA PRUEBA
